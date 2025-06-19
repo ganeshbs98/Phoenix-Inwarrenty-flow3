@@ -20,6 +20,7 @@ jobs :
         uses: actions/setup-node@v3.9.1
         with:
           node-version : '22'
+          
       - name : Install newman and htmlextra globally
         run : | 
               npm install -g newman
