@@ -44,7 +44,7 @@ jobs :
         if : always()
         uses: peaceiris/actions-github-pages@v3.1.12
         with:
-          github_token: ${{ secret.GITHUB_TOKEN }}
+          github_token : ${{ secret.GITHUB_TOKEN }}
           publish_dir : newman/
           
           
