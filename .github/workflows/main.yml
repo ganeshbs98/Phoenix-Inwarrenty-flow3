@@ -10,7 +10,7 @@ on:
 
 jobs :
   run-postman-tests:
-    runs-on : ubuntu_latest
+    runs-on : ubuntu-latest
 
     steps:
       - name : checkout the code
